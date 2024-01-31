@@ -1,0 +1,58 @@
+@media screen and (max-width: 1280px){
+    header{
+        flex-direction: column;
+        
+        display: flex;
+        justify-content: center; /* Centraliza os elementos horizontalmente */
+        align-items: center; /* Centraliza os elementos verticalmente */
+    }
+
+    .title h1{
+        margin: 0;
+    }
+
+    .criativo {
+        margin:0;
+    }
+
+    main {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    input {
+        align-self: center;
+        width: 40vw;
+    }
+    form {
+          margin: 0 auto;
+       width: 100%;
+    }
+    .roxo-img {
+       margin: 0;
+       width: 100%;
+    }
+
+    header h1{
+        margin-right: 40px;
+        font-size: 40px;
+    }
+    .inscreva-se-btn{
+        margin-left: 20px;
+    }
+
+
+    aside h2{
+        font-size: 50px
+}
+
+    aside p{
+        font-size: 20px;    
+    }
+
+    ul {
+
+        text-align:center;
+    }
+}

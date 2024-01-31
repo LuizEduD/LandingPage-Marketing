@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Iceberg&family=Poppins:wght@500&display=swap');
+Body {
+    background-color: rgb(34, 34, 34);
+    font-family: Poppins;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+ margin: -10px;   
+}
+
+.title {
+    flex-direction: column;
+    line-height: 10px;
+    
+}
+
+
+.roxo-img  {
+    width: 54vw;
+    height: 60vh;
+    margin-left: 200px;
+}
+
+li {
+    color: white;
+    display: inline-block;
+    margin: 20px;
+}
+h1 {
+    font-weight: 200;
+}
+
+a {
+    margin: 10px;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgb(144, 14, 184);
+    text-decoration: none;
+    text-transform: none;
+    overflow: hidden;
+    transition: border-color 0.7s ease-in-out; /* Adicionado ease-in-out para a transição */
+}
+
+a li {
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    transition: color 0.7s ease-in-out; /* Adicionado ease-in-out para a transição do texto */
+}
+
+a:hover {
+    border-color: white; /* Alteração da cor da borda ao passar o mouse */
+}
+
+a:hover li {
+    color: rgb(144, 14, 184); /* Alteração da cor do texto ao passar o mouse */
+    transition: color 0.7s ease-in-out; /* Adicionado ease-in-out para a transição do texto */
+}
+
+.inscreva-se-btn {
+    border-radius: 0px;
+    padding: 5px;
+    font-size: 20px;
+    transition: background-color 0.7s ease-in-out, border-color 0.7s ease-in-out;
+}
+
+.inscreva-se-btn:hover {
+    background-color: rgb(144, 14, 184);
+    border-color: rgb(144, 14, 184);
+    transition: background-color 0.7s ease-in-out, border-color 0.7s ease-in-out;
+}
+
+.inscreva-se-btn li {
+    font-family: "Iceberg";
+    color: white;  
+}
+
+.inscreva-se-btn:hover li {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 40px;
+    font-family: croissant one;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(144, 14, 184);
+    color: white;
+    font-weight: bold; 
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
